@@ -1,0 +1,193 @@
+/*-------------------------
+RESET
+-------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans serif;
+}
+
+body {
+    background-color: #f6f8f9;
+}
+
+/*-------------------------
+HEADER
+-------------------------*/
+header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+#title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*-------------------------
+CLASSE CONTAINER
+-------------------------*/
+.container {
+    width: 60vw;
+    margin: 30px auto;
+}
+
+/*-------------------------
+DIV BUTTONS
+-------------------------*/
+.bar {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 15px 50px 10px;
+    background-color: white;
+}
+
+.button {
+    padding: 6px 12px;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.add-task {
+    background-color: #47adf1;
+    border-color: #47adf1;
+}
+
+.add-section {
+    color: #cbd0d5;
+    background-color: white;
+    border-color: #cbd0d5;
+}
+
+/*-------------------------
+LISTS
+-------------------------*/
+.lists {
+    margin-top: 2px;
+    background-color: white;
+    padding: 30px 50px;
+    color: #444851;
+}
+
+.lists-layout {
+    margin-bottom: 30px;
+}
+
+.down-arrow::before {
+    content: '\25bc';
+    font-size: small;
+    margin-right: 4px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 10px 0 20px;
+}
+
+/*-------------------------
+CHECK - X ICONS
+-------------------------*/
+.check::before {
+    content: '\2713';
+    border: 1px solid #67c2ac;
+    border-radius: 50%;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 2px 4px;
+    color: #67c2ac;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.x::before {
+    content: '\00D7';
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: 13px;
+    padding: 0px 4px;
+    color: #e8433b;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/*-------------------------
+CATEGORIES
+-------------------------*/
+.editorial::after {
+    content: 'Editorial';
+    color: white;
+    padding: 6px 11px;
+    border-radius: 11px;
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 5px;
+    background-color: #47adf1;
+}
+
+.q-goals::after {
+    content: 'Q1 Goals';
+    color: white;
+    padding: 6px 11px;
+    border-radius: 11px;
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 5px;
+    background-color: #9C72E4;
+}
+
+.recruiting::after {
+    content: 'Recruiting';
+    color: white;
+    padding: 6px 11px;
+    border-radius: 11px;
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 5px;
+    background-color: #65C1AA;
+}
+
+.mobile::after {
+    content: 'Mobile';
+    color: white;
+    padding: 6px 11px;
+    border-radius: 11px;
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 5px;
+    background-color: #F29E33;
+}
+
+.website::after {
+    content: 'Website';
+    color: white;
+    padding: 6px 11px;
+    border-radius: 11px;
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 5px;
+    background-color: #D863A1;
+}
+
+.sales::after {
+    content: 'sales';
+    color: white;
+    padding: 6px 11px;
+    border-radius: 11px;
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 5px;
+    background-color: #B0C926;
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toboolist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--INIZIO HEADER-->
+    <header>
+        <img src="img/logocopia.png" alt="logo" class="logo">
+        <h1 id="title">Toboolist</h1>
+    </header>
+    <!--FINE HEADER-->
+    <!--INIZIO CORPO PAGINA-->
+    <div class="container">
+        <!--INIZIO DIV BUTTONS-->
+        <div class="bar">
+            <button class="button add-task">Add Task</button>
+            <button class="button add-section">Add Section</button>
+        </div>
+        <!--FINE DIV BUTTONS-->
+
+        <!--INIZIO DIV LISTE-->
+        <div class="lists">
+            <!--INIZIO NEW TASK-->
+            <section class="lists-layout new-task">
+                <div class="down-arrow"></div><h3>New Task</h3>
+                <ul>
+                    <li class="check editorial">Quarterly Newsletter</li>
+                </ul>
+            </section>
+            <!--FINE NEW TASK-->
+            <!--INIZIO TODAY-->
+            <section class="lists-layout today">
+                <h3 class="down-arrow">Today</h3>
+                <ul>
+                    <li class="check editorial">Recruiting blog post</li>
+                    <li class="check q-goals">Mobile app launch</li>
+                    <li class="x recruiting">Interview John H.</li>
+                    <li class="check mobile">Summit update to mobile storefronts</li>
+                </ul>
+            </section>
+            <!--FINE TODAY-->
+            <!--INIZIO UPCOMING-->
+            <section class="lists-layout upcoming">
+                <h3 class="down-arrow">Upcoming</h3>
+                <ul>
+                    <li class="x">Schedule meeting with Alex</li>
+                    <li class="check website">Homepage refresh</li>
+                    <li class="check sales">Onboard new Sales team members</li>
+                    <li class="check editorial">Review editorial calendar</li>
+                </ul>
+            </section>
+            <!--FINE UPCOMING-->
+        </div>
+        <!--FINE DIV LISTE-->
+    </div>
+    <!--FINE CORPO PAGINA-->
+</body>
+</html>
