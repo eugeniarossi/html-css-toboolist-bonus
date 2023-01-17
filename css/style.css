@@ -82,10 +82,45 @@ LISTS
     margin-bottom: 30px;
 }
 
+
+/*-------------------------
+EVENTS
+-------------------------*/
+.new-task-list {
+    display: none;
+}
+
+.new-task:hover .new-task-list {
+    display: contents;
+}
+
+.today-list {
+    display: none;
+}
+
+.today:hover .today-list {
+    display: contents;
+}
+
+.upcoming-list {
+    display: none;
+}
+
+.upcoming:hover .upcoming-list {
+    display: contents;
+}
+/*-------------------------
+/EVENTS
+-------------------------*/
+
 .down-arrow::before {
     content: '\25bc';
     font-size: small;
     margin-right: 4px;
+}
+
+h3 {
+    display: inline-block;
 }
 
 ul {
